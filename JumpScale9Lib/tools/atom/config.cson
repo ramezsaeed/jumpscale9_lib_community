@@ -1,0 +1,49 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "27e56bc7-4f6a-47ea-b859-ed28bfe85d53"
+  core:
+    disabledPackages: [
+      "linter-pep8"
+      "linter-python-pyflakes"
+      "linter-markdown"
+    ]
+  editor:
+    tabLength: 4
+    tabType: "soft"
+  linter:
+    showErrorPanel: false
+  "linter-flake8":
+    ignoreErrorCodes: [
+      "501"
+      "D100"
+      "F403"
+    ]
+    maxLineLength: 121
+  "markdown-preview":
+    useGitHubStyle: true
+  "python-autopep8":
+    formatOnSave: true
+    maxLineLength: 120
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "tool-bar":
+    visible: false
+  welcome:
+    showOnStartup: false
+".capnp.source":
+  editor:
+    tabLength: 4
+".gfm.source":
+  editor:
+    tabLength: 4
+".md.text":
+  editor:
+    tabLength: 4
+".raml.source":
+  editor:
+    tabLength: 4
