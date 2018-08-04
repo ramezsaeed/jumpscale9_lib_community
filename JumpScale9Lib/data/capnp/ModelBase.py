@@ -419,7 +419,7 @@ class ModelBaseCollection(JSBASE):
         finds all entries matching kwargs
 
         e.g.
-        email="reem@greenitglobe.com", name="reem"
+        email="reem@threefold.tech", name="reem"
         """
         res = []
         for key in self.list(**kwargs):
